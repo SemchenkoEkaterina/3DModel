@@ -16,6 +16,11 @@ const Konus = observer(() => {
             const COLOR_BG = "white";
 
             // set up the canvas and context
+            // to do
+            // нужно переделать используя mobx, убрать рисование модели из fetch
+            // в функцию по клику
+            // вместо createElement использовать получение элемента по id
+            // и элемент canvas добавить в разметку
             let canvas = document.createElement("canvas");
             document.body.appendChild(canvas);
             let ctx = canvas.getContext("2d");
